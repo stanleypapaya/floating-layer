@@ -1,5 +1,5 @@
 $('#clickMe').on('click',function(){
-    $('#popover').css({
+    $('#popover').toggle({
         'display': 'block'
     })
     $(document).one('click',function(){
